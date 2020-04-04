@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component Snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <form>
+      <div>
+        <label
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          id="username"
+        />
+      </div>
+      <div>
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          id="password"
+        />
+      </div>
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

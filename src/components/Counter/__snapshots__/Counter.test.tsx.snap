@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component Snapshot 1`] = `
+<DocumentFragment>
+  <button>
+    Minus
+  </button>
+  Clicked 0 times!
+  <button>
+    Add
+  </button>
+</DocumentFragment>
+`;

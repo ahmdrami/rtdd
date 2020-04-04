@@ -1,6 +1,7 @@
 import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
 import Checkbox from './CheckBox'
+import CheckBox from './CheckBox'
 
 describe('Checkbox', () => {
   test('shows the default label', () => {

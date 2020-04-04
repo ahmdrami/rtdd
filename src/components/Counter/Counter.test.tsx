@@ -21,4 +21,9 @@ describe('Counter component', () => {
     expect(screen.getByText(/^Clicked 1 times!$/i)).toBeInTheDocument()
 
   })
+
+  test('Snapshot', () => {
+    const { asFragment } = render(<Counter/>)
+    expect(asFragment()).toMatchSnapshot()
+  })
 })

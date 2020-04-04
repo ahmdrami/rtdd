@@ -27,4 +27,9 @@ describe('Login component', () => {
     // but jest-dom will give you better error messages which is why it's recommended
     expect(alert).toHaveTextContent(/signed in/i)
   })
+
+  test('Snapshot', () => {
+    const { asFragment } = render(<Login/>)
+    expect(asFragment()).toMatchSnapshot()
+  })
 })
